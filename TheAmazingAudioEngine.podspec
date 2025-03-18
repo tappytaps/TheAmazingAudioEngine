@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author       = { "Michael Tyson" => "michael@atastypixel.com" }
   s.source       = { :git => "https://github.com/TheAmazingAudioEngine/TheAmazingAudioEngine.git", :tag => "1.5.8" }
   s.deprecated   = true
-  s.ios.deployment_target = '7.0'
+  s.ios.deployment_target = '13.0'
   s.osx.deployment_target = '10.9'
   s.tvos.deployment_target = '9.0'
   s.source_files = 'TheAmazingAudioEngine/**/*.{h,m,c}', 'Modules/**/*.{h,m,c}'
